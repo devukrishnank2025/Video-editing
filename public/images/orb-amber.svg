@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <defs>
+    <radialGradient id="g" cx="38%" cy="35%" r="70%"><stop offset="0" stop-color="#ffe29a"/><stop offset=".6" stop-color="#e99a3a"/><stop offset="1" stop-color="#7a3b12"/></radialGradient>
+    <clipPath id="c"><circle cx="300" cy="300" r="270"/></clipPath>
+  </defs>
+  <circle cx="300" cy="300" r="270" fill="url(#g)"/>
+  <g clip-path="url(#c)" opacity=".35" fill="#7a3b12">
+    <path d="M40 220 Q160 160 260 230 T520 200 L560 260 Q420 300 300 270 T40 290Z"/>
+    <path d="M60 380 Q200 330 320 390 T560 360 L560 420 Q400 460 280 420 T60 450Z"/>
+  </g>
+  <ellipse cx="210" cy="190" rx="80" ry="40" fill="#fff" opacity=".25" transform="rotate(-30 210 190)"/>
+  <circle cx="300" cy="300" r="270" fill="none" stroke="#15110d" stroke-width="10"/></svg>
